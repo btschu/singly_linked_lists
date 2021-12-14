@@ -151,7 +151,8 @@ my_list.add_to_front("are").add_to_front("Linked lists").add_to_back("fun!").pri
 # Linked lists
 # are
 # fun!
-copy```
+copy
+```
 
 If you're feeling discouraged, confused, or overwhelmed, don't worry. We guarantee you are not the only one. This is a really difficult concept to pick up the first time around. Just keep practicing and breaking down each step one line at a time. Try to figure out which parts don't make sense and then talk it out with a classmate, TA, or instructor.
 
