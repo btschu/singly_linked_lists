@@ -1,14 +1,14 @@
-# singly_linked_lists
+### singly_linked_lists
 
-## Singly Linked Lists
+# Singly Linked Lists
 
-# Objectives:
+## Objectives:
 - Learn how linked lists work
 - Learn more about pointers
 - Learn how to traverse through a linked list
 Our class needs some methods! Let's start by adding a method that lets us add a node to the front of our list. We're going to take this slow.
 
-# Adding a Value to the Front
+## Adding a Value to the Front
 A common functionality of a list is to be able to add values, so let's add such a method to our class.
 
 1. Just as we would pass in a value to a Python list's append method, our add_to_front method should accept a value to be added to the list:
@@ -54,7 +54,7 @@ This implies we have already created the Node class. We did this in the previous
             
 Take a moment to compare this functionality to appending a value to the front of an array. Hopefully you can see some of the benefits--no shifting necessary, no matter how many elements we have in our list!
 
-# Traversing Through a List
+## Traversing Through a List
 Since this is pretty abstract, it might be helpful to have a function that goes through each node and prints its value. This is a great opportunity to learn how to traverse through a linked list. To iterate through an array, we used a for loop with an index as our iterator. However, since our linked list isn't indexed, we have to come up with a different iterator. We'll use a pointer that will, in a loop, point at each node.
 
 1. This method won't require any input:
@@ -88,7 +88,7 @@ Since this is pretty abstract, it might be helpful to have a function that goes 
         	runner = runner.next 	# set the runner to its neighbor
             return self	                # once the loop is done, return self to allow for chainingcopy```
             
-# Traversing Through a List and Adding a Value to the End
+## Traversing Through a List and Adding a Value to the End
 Let's practice traversing one more time. If we want to add a new node anywhere in our list, it just needs to become a neighbor of an existing node. To become the last node in our list, the list's current last node needs to point to this new node.
 
 1. This method will require a value to be added:
@@ -157,7 +157,7 @@ If you're feeling discouraged, confused, or overwhelmed, don't worry. We guarant
 
 Once you have a good grasp of this idea of nodes with pointers, you have the building blocks for building some other really neat data structures like binary search trees, tries, graphs, and more. As it's such a critical concept, practice and review the code above so that you are able to re-create the code demonstrated above without looking at the platform. Make sure you feel very comfortable with adding a new node, traversing through the linked list, etc. Once you can create both SList and Node without looking at the codes above, then move on to some of the additional challenges.
 
-# Additional Challenges
+## Additional Challenges
 These are challenging! Hop up to a whiteboard, grab a cohort mate if available, and try to work through these together.
 
 1. `remove_from_front(self)` - remove the first node and return its value
@@ -176,7 +176,7 @@ Consider the following cases:
 - n is the length of the list
 - n is between 0 and the length of the list
 
-# Tasks
+## Tasks
 
 - [ ] Create a new Python file and recreate the Node and SList classes
 
